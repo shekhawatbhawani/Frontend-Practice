@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .full-width {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .full-width .box {
+    width: 100%;
+  }
+  .container2 {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+  .container2 {
+    height: 50%;
+  }
+  .container3 {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+}

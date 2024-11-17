@@ -1,0 +1,47 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* div  */
+.div h1 {
+  font-size: 72px;
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+}
+
+/* container */
+
+.container summary:hover {
+  text-decoration: underline;
+}
+.container summary {
+  /* background-color: #faebd7; */
+  font-family: "DM Serif Display", serif;
+}
+.box {
+  background-color: #faebd7;
+}
+
+.box details {
+  padding: 5px 10px;
+}
+.box p {
+  border-top: 1px solid;
+  background-color: white;
+}
+/* footer  */
+footer {
+  width: 100%;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li :hover {
+  text-decoration: underline;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}

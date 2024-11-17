@@ -1,0 +1,17 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header style */
+nav {
+  border-bottom: 2px solid rgb(12, 12, 12);
+}
+header nav ul li:hover {
+  text-decoration: underline;
+}
+header nav .h1:hover {
+  text-decoration: underline;
+}

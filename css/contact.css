@@ -1,0 +1,39 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  background-color: #faebd7;
+}
+/* nav bar */
+nav {
+  border-bottom: 1px solid black;
+}
+/* container */
+.container .hight {
+  height: 30%;
+}
+
+.margin {
+  margin-bottom: 20px;
+}
+.raj {
+  margin-bottom: 100px;
+}
+/* footer  */
+footer {
+  width: 100%;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li :hover {
+  text-decoration: underline;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
